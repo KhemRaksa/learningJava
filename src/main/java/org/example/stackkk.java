@@ -13,9 +13,12 @@ public class stackkk {
         stakee.push("Skyrim");
         stakee.push("DOOM");
 
-        stakee.pop();
+        var game = stakee.pop();
         System.out.println(stakee.empty());
         System.out.println(stakee);
+        System.out.println(game);
+        System.out.println(stakee.peek());
+        System.out.println(stakee.search("Minecraft"));
     }
 
 }
